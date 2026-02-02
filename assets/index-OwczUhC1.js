@@ -17,7 +17,7 @@ hover:-translate-y-2
 hover:shadow-lg hover:shadow-blue-400/40
 
     ${dl[p]}
-  `,children:[P.jsxs("div",{className:"relative h-32",children:[P.jsx("img",{src:E.image,className:"w-full h-full object-cover"}),P.jsx("div",{className:"absolute inset-0"})]}),P.jsxs("div",{className:"p-5 text-left",children:[P.jsx("h3",{className:"text-lg text-gray-900 font-semibold mb-1",children:E.title}),P.jsx("p",{className:"text-sm text-zinc-600 mb-4 leading-relaxed",children:E.desc}),P.jsx("a",{className:"text-sm text-blue-500 hover:text-blue-600",children:"PDF 보기 →"})]})]})})}),P.jsx("button",{onClick:J,className:`
+  `,children:[P.jsxs("div",{className:"relative h-32",children:[P.jsx("img",{src:E.image,className:"w-full h-full object-cover"}),P.jsx("div",{className:"absolute inset-0"})]}),P.jsxs("div",{className:"p-5 text-left",children:[P.jsx("h3",{className:"text-lg text-gray-900 font-semibold mb-1",children:E.title}),P.jsx("p",{className:"text-sm text-zinc-600 mb-4 leading-relaxed",children:E.desc}),P.jsx("a",{href:E.link,target:"_blanck",rel:"noopner noreffer",className:"text-sm text-blue-500 hover:text-blue-600",children:"PDF 보기 →"})]})]})})}),P.jsx("button",{onClick:J,className:`
               absolute left-[-60px] top-1/2 -translate-y-1/2
               text-[50px] font-bold text-orange-400
               bg-transparent border-0 appearance-none
